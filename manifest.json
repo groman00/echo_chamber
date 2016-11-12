@@ -1,0 +1,28 @@
+{
+  "name": "Echo Chamber",
+  "version":"1.0",
+  "manifest_version":2,
+  "description": "See what you believe!",
+  //"permissions": ["storage","activeTab","tabs","http://*/","https://*/"],
+  "browser_action": {
+    "default_icon": "icons/trump-128.png",
+    "default_title": "start echo chamber"
+  },
+  "icons":{
+    "16":"/icons/trump-clear-16.png",
+    "48":"/icons/trump-48.png",
+    "128":"/icons/trump-128.png"
+  }
+  // "background": {
+  //   //"page":"background.html",
+  //   "scripts": ["background.js","/scripts/click.js","/scripts/search.js"],
+  //   "persistent": false
+  //   },
+
+  // "options_ui": {
+  //   // Required.
+  //   "page": "/options/options.html",
+  //   // Recommended.
+  //   "chrome_style": true
+  // }
+}
