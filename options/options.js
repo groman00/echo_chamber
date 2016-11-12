@@ -1,10 +1,10 @@
 // Saves options to chrome.storage.sync.
 function save_options() {
-  var topic = document.getElementById('gt_style').value;
-  // var time= document.getElementById('seconds').value;
+  var style = document.getElementById('gt_style').value;
+  var person = document.getElementById('person').value;
   chrome.storage.sync.set({
-    groupThinkStyle: gt_style
-    // timeSetting:time
+    groupThinkStyle: style,
+    targetPerson:person
   }, function() {
     // Update status to let user know options were saved.
     var status = document.getElementById('status');
