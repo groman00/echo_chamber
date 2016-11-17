@@ -1,7 +1,4 @@
 
-function replace(values){
-  console.log("run replace with ",values);
-}
 
 function find(_tab){
   chrome.storage.sync.get('targetPerson', function(value){

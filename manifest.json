@@ -15,7 +15,7 @@
   },
   "background": {
     //"page":"background.html",
-    "scripts": ["background.js","/scripts/jquery-3.1.1.min.js","scripts/find.js","scripts/replace.js"],
+    "scripts": ["background.js","scripts/find.js"],
     "persistent": false
     },
 
