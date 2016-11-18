@@ -1,17 +1,17 @@
 {
-  "name": "Echo Chamber",
+  "name": "TrumpSpeak",
   "version":"1.0",
   "manifest_version":2,
-  "description": "See what you believe!",
+  "description": "Read what you believe!",
   "permissions": ["storage","activeTab","tabs","http://*/","https://*/"],
   "browser_action": {
-    "default_icon": "icons/trump-128.png",
-    "default_title": "start echo chamber"
+    "default_icon": "icons/trump-clear-ts-48.png",
+    "default_title": "start TrumpSpeak!"
   },
   "icons":{
     "16":"/icons/trump-clear-16.png",
-    "48":"/icons/trump-48.png",
-    "128":"/icons/trump-128.png"
+    "48":"icons/trump-clear-ts-48.png",
+    "128":"/icons/TrumpSpeak-small.jpg"
   },
   "background": {
     //"page":"background.html",
