@@ -26,8 +26,6 @@ function findAndReplace(element, targetText, options) {
 }
 
 
-
-
 // here we're pulling the target value from storage (set on the options page)
 chrome.storage.sync.get(null, function(settings) {
     console.log(settings);
@@ -45,8 +43,8 @@ chrome.storage.sync.get(null, function(settings) {
                 "TRUMP": ["ASSCLOWN"]
             },
             propaganda: {
-                "Donald": ["The Ascendent","Our Swampdrainer", "Very, Very Rich", "The Best","Benevolent"],
-                "Trump": ["Great Father", "Strong Leader","Golden Celebrity Leader","Emperor Trump"],
+                "Donald": ["The Ascendent", "Our Swampdrainer", "Very, Very Rich", "The Best", "Benevolent"],
+                "Trump": ["Great Father", "Strong Leader", "Golden Celebrity Leader", "Emperor Trump"],
                 "TRUMP": ["GREAT EMPEROR TRUMP"]
             }
         }

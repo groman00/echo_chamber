@@ -3,7 +3,8 @@ function save_options() {
   var style = document.getElementById('gt_style').value;
   var person = document.getElementById('person').value;
   chrome.storage.sync.set({
-    groupThinkStyle: style,
+    groupThinkStyle
+: style,
     targetPerson:person
   }, function() {
     // Update status to let user know options were saved.
