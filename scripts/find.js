@@ -37,7 +37,9 @@ chrome.storage.sync.get(null, function(settings) {
             belittle: {
                 "Donald": ["Don the Con", "The Big Racist","Mango Mussolini", "The Bigot", "Professional Fearmonger", "LadyGroper", "Smallhands"],
                 "Trump": ["Drumpf", "Assclown", "Trumpz","Hair Furher"],
-                "TRUMP": ["ASSCLOWN"]
+                "TRUMP": ["ASSCLOWN"],
+                "alt-right":["american Nazi moron movement"],
+                "Alt-right":["American Nazi Party of Poor Racist Idiots"]
             },
             propaganda: {
                 "Donald": ["The Ascendent", "Our Swampdrainer", "Very, Very Rich", "The Best", "Benevolent"],
