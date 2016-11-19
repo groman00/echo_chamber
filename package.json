@@ -1,0 +1,19 @@
+{
+  "name": "echo_chamber",
+  "version": "1.0.0",
+  "description": "learning chrome extensions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrew-menendez/echo_chamber.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrew-menendez/echo_chamber/issues"
+  },
+  "homepage": "https://github.com/andrew-menendez/echo_chamber#readme"
+}
